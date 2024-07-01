@@ -20,8 +20,12 @@ function SimpleCounter(props){
 
 let counter = 0;
 setInterval(function(){
+    const four = Math.floor(counter/10000);
+    const three = Math.floor(counter/1000);
+    const two = Math.floor(counter/100);
+    const one = Math.floor(counter/10);
     //render your react application
-    ReactDOM.createRoot(document.getElementById('app')).render(<SimpleCounter/>);
+    ReactDOM.createRoot(document.getElementById('app')).render(<SimpleCounter digitOne={counter.indexOf()}/>);
 },1000);
 
 
