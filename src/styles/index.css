@@ -1,13 +1,14 @@
 .bigCounter {
     text-align: center;
+    background-color: black;
+    padding: 15px;
+    margin: 5px;
 }
 
 .bigCounter div{
     display: inline-block;
     font-size: 60px;
     line-height: 60px;
-    background-color: black;
     color: azure;
-    padding: 10px;
-    margin: 3px;
+    padding: 50px;
 }
